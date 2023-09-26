@@ -1,0 +1,13 @@
+div{
+    background-color: rgb(40, 167, 122);
+    width: 50vw;
+    height: 480px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+ul{
+    display: flex;
+    flex-direction: column;
+}
