@@ -1,14 +1,17 @@
-div{
-    /* height: 20vh; */
-    background-color: orange;
-    width: 50vw;
-    height: 480px;
+.small-card-container {
+    width: 40vw;
+    height: 120px;
     display: flex;
+    justify-content: flex-start;
     align-items: center;
-    justify-content: space-around;
+    flex-direction: row;
+    gap: 50px;
+    border-bottom: 1px solid rgb(79, 76, 76);
 }
 
-ul{
-    display: flex;
-    flex-direction: column;
+img {
+    width: 140px;
+    height: 80px;
+    border-radius: 10px;
+    margin-left: 35px;
 }

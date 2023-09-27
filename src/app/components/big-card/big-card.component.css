@@ -1,13 +1,22 @@
-div{
-    background-color: rgb(40, 167, 122);
-    width: 50vw;
-    height: 480px;
+.big-card-container {
+    width: 40vw;
+    height: 360px;
     display: flex;
-    align-items: center;
-    justify-content: space-around;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 50px;
+    padding-top: 10px;
+    border-right: 1px solid rgb(79, 76, 76);
 }
 
-ul{
-    display: flex;
-    flex-direction: column;
+img {
+    width: 60%;
+    max-width: 417px;
+    margin-left: 35px;
+    border-radius: 10px;
+}
+
+.info-container {
+    margin-left: 35px;
 }
