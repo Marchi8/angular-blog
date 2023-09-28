@@ -9,9 +9,35 @@
     border-bottom: 1px solid rgb(79, 76, 76);
 }
 
+.small-card-container:hover {
+    cursor: pointer;
+    background-color: #3c3737;
+}
+
 img {
     width: 140px;
     height: 80px;
     border-radius: 10px;
     margin-left: 35px;
+}
+
+
+.info-container {
+    margin-left: 35px;
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    background-color: transparent;
+}
+
+.info-container h3 {
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+}
+
+.info-container p {
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
 }

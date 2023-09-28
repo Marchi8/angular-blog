@@ -1,8 +1,6 @@
 <div class="small-card-container">
-    <img src="https://www.motortrend.com/uploads/2023/09/1993-civic-sir-front-quarter.jpg?fit=around%7C875:492" alt="">
-    <div>
-        <span></span>
-        <h3>Título</h3>
-        <p>Descrição</p>
+    <img src={{photoCover}} alt="">
+    <div class="info-container">
+        <h3><a [routerLink]="['content', Id]">{{cardTitle}}</a></h3>
     </div>
 </div>

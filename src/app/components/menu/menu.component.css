@@ -2,17 +2,17 @@ div {
     width: 100%;
     display: flex;
     align-items: center;
-    justify-content: start;
-    margin-bottom: 10px;
+    justify-content: center;
+    border-bottom: 2px solid rgb(128, 150, 193);
+    border-top: 1px solid rgb(128, 150, 193);
+    /* margin-bottom: -10px; */
 }
 
 h1 {
-    border-bottom: 2px solid rgb(128, 150, 193);
     font-weight: 900;
-    height: 140px;
-    font-size: 15vh;
+    height: 210px;
+    font-size: 10vw;
     color: rgb(243, 231, 215);
-    margin-left: 155px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-style: italic;
 }
